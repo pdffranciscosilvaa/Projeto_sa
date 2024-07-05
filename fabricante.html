@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Fabricantes</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="fabricante.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="registration-container">
+        <div class="registration-box">
+            <h2>Cadastro de Fabricantes</h2>
+            <form id="cadastroFabricanteForm">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Nome do Fabricante" id="nomeFabricante" required>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <input type="number" placeholder="Código do Funcionário" id="codFuncionario" required>
+                    </div>
+                </div>
+                <br>
+                <div class="button-group">
+                    <div class="button-box">
+                        <button type="button" id="registrar">Registrar</button>
+                    </div>
+                    <br><br>
+                    <div class="button-box">
+                        <button type="button" id="listar">Listar</button>
+                    </div>
+                    <br><br>
+                    <div class="button-box">
+                        <button type="button" id="buscar">Buscar</button>
+                    </div>
+                    <br><br>
+                    <div class="button-box">
+                        <button type="button" id="deletar">Deletar</button>
+                    </div>
+                </div>
+            </form>
+            <div id="resposta"></div>
+        </div>
+    </div>
+</body>
+</html>
