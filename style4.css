@@ -72,7 +72,7 @@
     left: -5%;
     width: 110%;
     height: 110%;
-    background-image: url("assets/santamaria.jpg");
+    background-image: url("assets/1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: 0.45s;
@@ -83,7 +83,6 @@
     position: absolute;
     z-index: -1;
     inset: 0;
-    background: rgb(0 0 0 / 60%);
   }
   
   body.open .background {
