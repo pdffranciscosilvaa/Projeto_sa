@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Doadores</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="doador.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="registration-container">
+        <div class="registration-box">
+            <h2>Cadastro de Doadores</h2>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" id="nomeDoador" placeholder="Nome" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="cpfDoador" placeholder="CPF" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" id="cnpjDoador" placeholder="CNPJ">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="enderecoDoador" placeholder="Endereço" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" id="emailDoador" placeholder="Email" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="telefoneDoador" placeholder="Telefone" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="situacaoDoador" placeholder="Situação" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" id="codFuncionario" placeholder="Código do Funcionário" required>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <div class="button-box">
+                        <button type="button" id="registrar">Registrar</button>
+                    </div>
+                    <br><br>
+                    <div class="button-box">
+                        <button type="button" id="listar">Listar</button>
+                    </div>
+                    <br><br>
+                    <div class="button-box">
+                        <button type="button" id="buscar">Buscar</button>
+                    </div>
+                    <br><br>
+                    <div class="button-box">
+                        <button type="button" id="deletar">Deletar</button>
+                    </div>
+                </div>
+            <div id="resposta"></div>
+        </div>
+    </div>
+</body>
+</html>
